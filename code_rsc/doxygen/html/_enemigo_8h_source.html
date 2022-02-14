@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.15"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Juego David Almagro: Fichero Fuente Enemigo.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="TituloPNG.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Juego David Almagro
+   &#160;<span id="projectnumber">1.14.2</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.15 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Enemigo.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_enemigo_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef __Enemigo_H__</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define __Enemigo_H__</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_pantalla_8h.html">Pantalla.h</a>&quot;</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div><div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="_enemigo_8h.html#ab1646722bbee24d6f7a02529d97efea5">   13</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="struct_enemigo_rep.html">EnemigoRep</a> * <a class="code" href="_enemigo_8h.html#ab1646722bbee24d6f7a02529d97efea5">Enemigo</a>;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<a class="code" href="struct_enemigo_rep.html">Enemigo</a> <a class="code" href="_enemigo_8h.html#adf5f7be6bc2ea065a1cb526ae83b6885">EnemigoCrea</a>(<a class="code" href="struct_imagen.html">Imagen</a> i, <a class="code" href="struct_imagen.html">Imagen</a> i1, <a class="code" href="struct_imagen.html">Imagen</a> i2, <a class="code" href="struct_imagen.html">Imagen</a> i3, <a class="code" href="struct_imagen.html">Imagen</a> i4,<a class="code" href="struct_imagen.html">Imagen</a> i5, <a class="code" href="struct_imagen.html">Imagen</a> i6, <a class="code" href="struct_imagen.html">Imagen</a> i7, <a class="code" href="struct_imagen.html">Imagen</a> i8, <a class="code" href="struct_imagen.html">Imagen</a> i9, <a class="code" href="struct_imagen.html">Imagen</a> i10, <a class="code" href="struct_imagen.html">Imagen</a> i11,<span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y, <span class="keywordtype">int</span> w, <span class="keywordtype">int</span> h, <span class="keywordtype">int</span> vx, <span class="keywordtype">int</span> vy);</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_enemigo_8h.html#a59a213327e0a87a9880085c383f4acba">EnemigoLibera</a>(<a class="code" href="struct_enemigo_rep.html">Enemigo</a> e);</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_enemigo_8h.html#a26af18e9c642ee879c1e7f6311308156">EnemigoMueve</a>(<a class="code" href="struct_enemigo_rep.html">Enemigo</a> e);</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_enemigo_8h.html#a079a2dd854cdb63ba262bed92ef77f54">EnemigoDibuja</a>(<a class="code" href="struct_enemigo_rep.html">Enemigo</a> e);</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="keywordtype">int</span> <a class="code" href="_enemigo_8h.html#a01405809fe797c3809c14b789345f36d">EnemigoGetX</a>(<a class="code" href="struct_enemigo_rep.html">Enemigo</a> e);</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="keywordtype">int</span> <a class="code" href="_enemigo_8h.html#a5d1ff0cf481bdb53dca3154cbeae4685">EnemigoGetY</a>(<a class="code" href="struct_enemigo_rep.html">Enemigo</a> e);</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="keywordtype">int</span> <a class="code" href="_enemigo_8h.html#a5f33e271115038e8f5449870780dd527">EnemigoGetH</a>(<a class="code" href="struct_enemigo_rep.html">Enemigo</a> e);</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="keywordtype">int</span> <a class="code" href="_enemigo_8h.html#a5c5ad7ffb0fe0446982ec1ec17dbee44">EnemigoGetW</a>(<a class="code" href="struct_enemigo_rep.html">Enemigo</a> e);</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_enemigo_8h.html#ab2d06219cd7f89e62d48f4a4f9becc63">EnemigoAvanzaFrame</a>(<a class="code" href="struct_enemigo_rep.html">Enemigo</a> e);</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="keywordtype">int</span> <a class="code" href="_enemigo_8h.html#abfde489556530a4c5327308d9ef2f010">EnemigoCompruebaFrame</a>(<a class="code" href="struct_enemigo_rep.html">Enemigo</a> e);</div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;</div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;</div><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;</div><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;</div><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;</div><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="_enemigo_8h_html_a5f33e271115038e8f5449870780dd527"><div class="ttname"><a href="_enemigo_8h.html#a5f33e271115038e8f5449870780dd527">EnemigoGetH</a></div><div class="ttdeci">int EnemigoGetH(Enemigo e)</div><div class="ttdoc">Devuelve el parámetro interno 'h', alto del Enemigo.</div><div class="ttdef"><b>Definition:</b> Enemigo.c:152</div></div>
+<div class="ttc" id="_enemigo_8h_html_abfde489556530a4c5327308d9ef2f010"><div class="ttname"><a href="_enemigo_8h.html#abfde489556530a4c5327308d9ef2f010">EnemigoCompruebaFrame</a></div><div class="ttdeci">int EnemigoCompruebaFrame(Enemigo e)</div><div class="ttdoc">Devuelve el frame en el que se encuentra el enemigo.</div><div class="ttdef"><b>Definition:</b> Enemigo.c:138</div></div>
+<div class="ttc" id="_enemigo_8h_html_ab2d06219cd7f89e62d48f4a4f9becc63"><div class="ttname"><a href="_enemigo_8h.html#ab2d06219cd7f89e62d48f4a4f9becc63">EnemigoAvanzaFrame</a></div><div class="ttdeci">void EnemigoAvanzaFrame(Enemigo e)</div><div class="ttdoc">Suma 1 al frame en el que se encuentra en el enemigo.</div><div class="ttdef"><b>Definition:</b> Enemigo.c:134</div></div>
+<div class="ttc" id="struct_imagen_html"><div class="ttname"><a href="struct_imagen.html">Imagen</a></div><div class="ttdef"><b>Definition:</b> Pantalla.c:11</div></div>
+<div class="ttc" id="_enemigo_8h_html_a079a2dd854cdb63ba262bed92ef77f54"><div class="ttname"><a href="_enemigo_8h.html#a079a2dd854cdb63ba262bed92ef77f54">EnemigoDibuja</a></div><div class="ttdeci">void EnemigoDibuja(Enemigo e)</div><div class="ttdoc">Dibuja el enemigo en pantalla.</div><div class="ttdef"><b>Definition:</b> Enemigo.c:56</div></div>
+<div class="ttc" id="_enemigo_8h_html_a26af18e9c642ee879c1e7f6311308156"><div class="ttname"><a href="_enemigo_8h.html#a26af18e9c642ee879c1e7f6311308156">EnemigoMueve</a></div><div class="ttdeci">void EnemigoMueve(Enemigo e)</div><div class="ttdoc">Mueve el enemigo en la dirección que indican sus parámetros internos.</div><div class="ttdef"><b>Definition:</b> Enemigo.c:43</div></div>
+<div class="ttc" id="_enemigo_8h_html_a59a213327e0a87a9880085c383f4acba"><div class="ttname"><a href="_enemigo_8h.html#a59a213327e0a87a9880085c383f4acba">EnemigoLibera</a></div><div class="ttdeci">void EnemigoLibera(Enemigo e)</div><div class="ttdoc">Libera de memoria el espacio usado por el enemigo.</div><div class="ttdef"><b>Definition:</b> Enemigo.c:37</div></div>
+<div class="ttc" id="_pantalla_8h_html"><div class="ttname"><a href="_pantalla_8h.html">Pantalla.h</a></div><div class="ttdoc">La biblioteca pantalla es un wrapper de la biblioteca SDL 2.0. Permite realizar programas interactivo...</div></div>
+<div class="ttc" id="_enemigo_8h_html_a5d1ff0cf481bdb53dca3154cbeae4685"><div class="ttname"><a href="_enemigo_8h.html#a5d1ff0cf481bdb53dca3154cbeae4685">EnemigoGetY</a></div><div class="ttdeci">int EnemigoGetY(Enemigo e)</div><div class="ttdoc">Devuelve el parámetro interno 'y', la posición en el eje y del Enemigo.</div><div class="ttdef"><b>Definition:</b> Enemigo.c:147</div></div>
+<div class="ttc" id="struct_enemigo_rep_html"><div class="ttname"><a href="struct_enemigo_rep.html">EnemigoRep</a></div><div class="ttdef"><b>Definition:</b> Enemigo.c:5</div></div>
+<div class="ttc" id="_enemigo_8h_html_adf5f7be6bc2ea065a1cb526ae83b6885"><div class="ttname"><a href="_enemigo_8h.html#adf5f7be6bc2ea065a1cb526ae83b6885">EnemigoCrea</a></div><div class="ttdeci">Enemigo EnemigoCrea(Imagen i, Imagen i1, Imagen i2, Imagen i3, Imagen i4, Imagen i5, Imagen i6, Imagen i7, Imagen i8, Imagen i9, Imagen i10, Imagen i11, int x, int y, int w, int h, int vx, int vy)</div><div class="ttdoc">Crea un enemigo con 1 imagen y otras 4 para su destrucción, con velocidad constante.</div><div class="ttdef"><b>Definition:</b> Enemigo.c:11</div></div>
+<div class="ttc" id="_enemigo_8h_html_a5c5ad7ffb0fe0446982ec1ec17dbee44"><div class="ttname"><a href="_enemigo_8h.html#a5c5ad7ffb0fe0446982ec1ec17dbee44">EnemigoGetW</a></div><div class="ttdeci">int EnemigoGetW(Enemigo e)</div><div class="ttdoc">Devuelve el parámetro interno 'w', ancho del Enemigo.</div><div class="ttdef"><b>Definition:</b> Enemigo.c:156</div></div>
+<div class="ttc" id="_enemigo_8h_html_a01405809fe797c3809c14b789345f36d"><div class="ttname"><a href="_enemigo_8h.html#a01405809fe797c3809c14b789345f36d">EnemigoGetX</a></div><div class="ttdeci">int EnemigoGetX(Enemigo e)</div><div class="ttdoc">Devuelve el parámetro interno 'x', la posición en el eje x del Enemigo.</div><div class="ttdef"><b>Definition:</b> Enemigo.c:143</div></div>
+<div class="ttc" id="_enemigo_8h_html_ab1646722bbee24d6f7a02529d97efea5"><div class="ttname"><a href="_enemigo_8h.html#ab1646722bbee24d6f7a02529d97efea5">Enemigo</a></div><div class="ttdeci">struct EnemigoRep * Enemigo</div><div class="ttdoc">TDA Enemigo.</div><div class="ttdef"><b>Definition:</b> Enemigo.h:13</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Domingo, 19 de Mayo de 2019 19:02:38 para Juego David Almagro por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.15
+</small></address>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.15"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Juego David Almagro: Fichero Fuente Ejercito.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="TituloPNG.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Juego David Almagro
+   &#160;<span id="projectnumber">1.14.2</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.15 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Ejercito.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_ejercito_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef __Ejercito_H__</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define __Ejercito_H__</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_pantalla_8h.html">Pantalla.h</a>&quot;</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_disparo_8h.html">Disparo.h</a>&quot;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_enemigo_8h.html">Enemigo.h</a>&quot;</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div><div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="_ejercito_8h.html#a10180dd7b9b6f8179b6be972176e7885">   15</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="struct_ejercito_rep.html">EjercitoRep</a> * <a class="code" href="_ejercito_8h.html#a10180dd7b9b6f8179b6be972176e7885">Ejercito</a>;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<a class="code" href="struct_ejercito_rep.html">Ejercito</a> <a class="code" href="_ejercito_8h.html#a30038af4894813ba2774c51bb3da3bdd">EjercitoCrea</a>();</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_ejercito_8h.html#a452d3e9653bee104d09655b1f7712487">EjercitoLibera</a>(<a class="code" href="struct_ejercito_rep.html">Ejercito</a> ej);</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_ejercito_8h.html#a4f379f033da250c6da1aeffede777643">EjercitoInserta</a>(<a class="code" href="struct_ejercito_rep.html">Ejercito</a> ej, <a class="code" href="struct_imagen.html">Imagen</a> i,<a class="code" href="struct_imagen.html">Imagen</a> i1,<a class="code" href="struct_imagen.html">Imagen</a> i2,<a class="code" href="struct_imagen.html">Imagen</a> i3,<a class="code" href="struct_imagen.html">Imagen</a> i4,<a class="code" href="struct_imagen.html">Imagen</a> i5,<a class="code" href="struct_imagen.html">Imagen</a> i6,<a class="code" href="struct_imagen.html">Imagen</a> i7,<a class="code" href="struct_imagen.html">Imagen</a> i8,<a class="code" href="struct_imagen.html">Imagen</a> i9,<a class="code" href="struct_imagen.html">Imagen</a> i10,<a class="code" href="struct_imagen.html">Imagen</a> i11, <span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y , <span class="keywordtype">int</span> w, <span class="keywordtype">int</span> h, <span class="keywordtype">int</span> vx, <span class="keywordtype">int</span> vy);</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="keywordtype">int</span> <a class="code" href="_ejercito_8h.html#a41fd80460ed8d2f81b7d72f216c3d5c3">EjercitoColision</a>(<a class="code" href="struct_ejercito_rep.html">Ejercito</a> ej, <span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y, <span class="keywordtype">int</span> w, <span class="keywordtype">int</span> h);</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_ejercito_8h.html#abcb3c534ccd8c4b9ac41e6171b3c28b8">EjercitoDibuja</a>(<a class="code" href="struct_ejercito_rep.html">Ejercito</a> ej);</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_ejercito_8h.html#a8f1e5b9af5e243dae888524a0031d13e">EjercitoMueve</a>(<a class="code" href="struct_ejercito_rep.html">Ejercito</a> ej);</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="keywordtype">int</span> <a class="code" href="_ejercito_8h.html#ac56a73a06783e944037298a6d32f1756">EjercitoColisionRayo</a>(<a class="code" href="struct_ejercito_rep.html">Ejercito</a> ej, <a class="code" href="struct_rayo_rep.html">Rayo</a> r);</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="keywordtype">void</span>  <a class="code" href="_ejercito_8h.html#afe9f0e8c0f81eb2720a60ecaf44b7e97">EjercitoDibujaVida</a>(<span class="keywordtype">int</span> i,<a class="code" href="struct_imagen.html">Imagen</a> im);</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="_enemigo_8h_html"><div class="ttname"><a href="_enemigo_8h.html">Enemigo.h</a></div><div class="ttdoc">Implementa las funciones del TDA Enemigo.</div></div>
+<div class="ttc" id="_ejercito_8h_html_a452d3e9653bee104d09655b1f7712487"><div class="ttname"><a href="_ejercito_8h.html#a452d3e9653bee104d09655b1f7712487">EjercitoLibera</a></div><div class="ttdeci">void EjercitoLibera(Ejercito ej)</div><div class="ttdoc">Libera de memoria el Ejército y los enemigos de dicho ejército.</div><div class="ttdef"><b>Definition:</b> Ejercito.c:20</div></div>
+<div class="ttc" id="struct_imagen_html"><div class="ttname"><a href="struct_imagen.html">Imagen</a></div><div class="ttdef"><b>Definition:</b> Pantalla.c:11</div></div>
+<div class="ttc" id="_ejercito_8h_html_a41fd80460ed8d2f81b7d72f216c3d5c3"><div class="ttname"><a href="_ejercito_8h.html#a41fd80460ed8d2f81b7d72f216c3d5c3">EjercitoColision</a></div><div class="ttdeci">int EjercitoColision(Ejercito ej, int x, int y, int w, int h)</div><div class="ttdoc">Calcula si alguno de los enemigos en el ejército colisiona con el objeto pasado por parámetros.</div><div class="ttdef"><b>Definition:</b> Ejercito.c:39</div></div>
+<div class="ttc" id="struct_rayo_rep_html"><div class="ttname"><a href="struct_rayo_rep.html">RayoRep</a></div><div class="ttdef"><b>Definition:</b> Disparo.c:11</div></div>
+<div class="ttc" id="_ejercito_8h_html_afe9f0e8c0f81eb2720a60ecaf44b7e97"><div class="ttname"><a href="_ejercito_8h.html#afe9f0e8c0f81eb2720a60ecaf44b7e97">EjercitoDibujaVida</a></div><div class="ttdeci">void EjercitoDibujaVida(int i, Imagen im)</div><div class="ttdoc">Dibuja la imagen pasada tantas veces como indique el entero recibido hacia la izquierda.</div><div class="ttdef"><b>Definition:</b> Ejercito.c:105</div></div>
+<div class="ttc" id="_ejercito_8h_html_ac56a73a06783e944037298a6d32f1756"><div class="ttname"><a href="_ejercito_8h.html#ac56a73a06783e944037298a6d32f1756">EjercitoColisionRayo</a></div><div class="ttdeci">int EjercitoColisionRayo(Ejercito ej, Rayo r)</div><div class="ttdef"><b>Definition:</b> Ejercito.c:62</div></div>
+<div class="ttc" id="struct_ejercito_rep_html"><div class="ttname"><a href="struct_ejercito_rep.html">EjercitoRep</a></div><div class="ttdef"><b>Definition:</b> Ejercito.c:8</div></div>
+<div class="ttc" id="_pantalla_8h_html"><div class="ttname"><a href="_pantalla_8h.html">Pantalla.h</a></div><div class="ttdoc">La biblioteca pantalla es un wrapper de la biblioteca SDL 2.0. Permite realizar programas interactivo...</div></div>
+<div class="ttc" id="_ejercito_8h_html_a4f379f033da250c6da1aeffede777643"><div class="ttname"><a href="_ejercito_8h.html#a4f379f033da250c6da1aeffede777643">EjercitoInserta</a></div><div class="ttdeci">void EjercitoInserta(Ejercito ej, Imagen i, Imagen i1, Imagen i2, Imagen i3, Imagen i4, Imagen i5, Imagen i6, Imagen i7, Imagen i8, Imagen i9, Imagen i10, Imagen i11, int x, int y, int w, int h, int vx, int vy)</div><div class="ttdoc">Inserta un enémigo en el ejército, creando una nueva celda con dicho enemigo e insertándola al princi...</div><div class="ttdef"><b>Definition:</b> Ejercito.c:31</div></div>
+<div class="ttc" id="_ejercito_8h_html_abcb3c534ccd8c4b9ac41e6171b3c28b8"><div class="ttname"><a href="_ejercito_8h.html#abcb3c534ccd8c4b9ac41e6171b3c28b8">EjercitoDibuja</a></div><div class="ttdeci">void EjercitoDibuja(Ejercito ej)</div><div class="ttdoc">Recorre el ejército dibujando cada uno de los enemigos existentes.</div><div class="ttdef"><b>Definition:</b> Ejercito.c:85</div></div>
+<div class="ttc" id="_ejercito_8h_html_a8f1e5b9af5e243dae888524a0031d13e"><div class="ttname"><a href="_ejercito_8h.html#a8f1e5b9af5e243dae888524a0031d13e">EjercitoMueve</a></div><div class="ttdeci">void EjercitoMueve(Ejercito ej)</div><div class="ttdoc">Mueve cada enemigo del ejército según la velocidad asociada de cada uno.</div><div class="ttdef"><b>Definition:</b> Ejercito.c:93</div></div>
+<div class="ttc" id="_ejercito_8h_html_a30038af4894813ba2774c51bb3da3bdd"><div class="ttname"><a href="_ejercito_8h.html#a30038af4894813ba2774c51bb3da3bdd">EjercitoCrea</a></div><div class="ttdeci">Ejercito EjercitoCrea()</div><div class="ttdoc">Crea un ejército en memoria como una lista de datos enlazada de enemigos vacía.</div></div>
+<div class="ttc" id="_ejercito_8h_html_a10180dd7b9b6f8179b6be972176e7885"><div class="ttname"><a href="_ejercito_8h.html#a10180dd7b9b6f8179b6be972176e7885">Ejercito</a></div><div class="ttdeci">struct EjercitoRep * Ejercito</div><div class="ttdoc">TDA Ejercito.</div><div class="ttdef"><b>Definition:</b> Ejercito.h:15</div></div>
+<div class="ttc" id="_disparo_8h_html"><div class="ttname"><a href="_disparo_8h.html">Disparo.h</a></div><div class="ttdoc">Implementa las funciones del TDA Disparo y del TDA Rayo usando funciones del Personaje.</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Domingo, 19 de Mayo de 2019 19:02:38 para Juego David Almagro por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.15
+</small></address>
+</body>
+</html>

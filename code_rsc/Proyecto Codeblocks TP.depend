@@ -1,0 +1,181 @@
+# depslib dependency file v1.0
+1558295340 source:d:\uni\1º\tp\proyecto tp david almagro\código\boton.c
+	"Boton.h"
+	<stdlib.h>
+
+1558098198 d:\uni\1º\tp\proyecto tp david almagro\código\boton.h
+	"Pantalla.h"
+
+1547910800 d:\uni\1º\tp\proyecto tp david almagro\código\pantalla.h
+	"SDL2/SDL.h"
+
+1554974700 source:d:\uni\1º\tp\proyecto tp david almagro\código\colision.c
+	"Colision.h"
+	<math.h>
+
+1558098196 d:\uni\1º\tp\proyecto tp david almagro\código\colision.h
+
+1558295334 source:d:\uni\1º\tp\proyecto tp david almagro\código\disparo.c
+	"Disparo.h"
+	"Personaje.h"
+	<stdlib.h>
+
+1558290976 d:\uni\1º\tp\proyecto tp david almagro\código\disparo.h
+	"Personaje.h"
+	"Pantalla.h"
+
+1558098108 d:\uni\1º\tp\proyecto tp david almagro\código\personaje.h
+	"Pantalla.h"
+
+1558296033 source:d:\uni\1º\tp\proyecto tp david almagro\código\ejercito.c
+	"Ejercito.h"
+	"Disparo.h"
+	<stdlib.h>
+	"Enemigo.h"
+	"Colision.h"
+
+1558285277 d:\uni\1º\tp\proyecto tp david almagro\código\ejercito.h
+	"Pantalla.h"
+	"Disparo.h"
+	"Enemigo.h"
+
+1558285277 d:\uni\1º\tp\proyecto tp david almagro\código\enemigo.h
+	"Pantalla.h"
+
+1558295314 source:d:\uni\1º\tp\proyecto tp david almagro\código\enemigo.c
+	"Enemigo.h"
+	"Pantalla.h"
+	<stdlib.h>
+
+1558295310 source:d:\uni\1º\tp\proyecto tp david almagro\código\estrella.c
+	"Estrella.h"
+	<stdlib.h>
+
+1558098198 d:\uni\1º\tp\proyecto tp david almagro\código\estrella.h
+	"Pantalla.h"
+
+1558295307 source:d:\uni\1º\tp\proyecto tp david almagro\código\galaxia.c
+	"Estrella.h"
+	"Galaxia.h"
+	<stdlib.h>
+	"Colision.h"
+
+1558098198 d:\uni\1º\tp\proyecto tp david almagro\código\galaxia.h
+	"Pantalla.h"
+
+1547910444 source:d:\uni\1º\tp\proyecto tp david almagro\código\pantalla.c
+	"Pantalla.h"
+	<stdlib.h>
+	<signal.h>
+	<stdio.h>
+	<math.h>
+
+1558295298 source:d:\uni\1º\tp\proyecto tp david almagro\código\personaje.c
+	"Personaje.h"
+	<stdlib.h>
+
+1558296232 source:d:\uni\1º\tp\proyecto tp david almagro\código\principal.c
+	"Pantalla.h"
+	"Personaje.h"
+	"Enemigo.h"
+	"Colision.h"
+	"Estrella.h"
+	"Galaxia.h"
+	"Disparo.h"
+	"Boton.h"
+	"Ejercito.h"
+	<stdlib.h>
+	<time.h>
+	<stdio.h>
+	<string.h>
+
+1558288140 source:d:\uni\1º\2ºc\tp\proyecto tp david almagro\código\boton.c
+	"Boton.h"
+	<stdlib.h>
+
+1558090998 d:\uni\1º\2ºc\tp\proyecto tp david almagro\código\boton.h
+	"Pantalla.h"
+
+1547907200 d:\uni\1º\2ºc\tp\proyecto tp david almagro\código\pantalla.h
+	"SDL2/SDL.h"
+
+1554967500 source:d:\uni\1º\2ºc\tp\proyecto tp david almagro\código\colision.c
+	"Colision.h"
+	<math.h>
+
+1558090996 d:\uni\1º\2ºc\tp\proyecto tp david almagro\código\colision.h
+
+1558288134 source:d:\uni\1º\2ºc\tp\proyecto tp david almagro\código\disparo.c
+	"Disparo.h"
+	"Personaje.h"
+	<stdlib.h>
+
+1558283776 d:\uni\1º\2ºc\tp\proyecto tp david almagro\código\disparo.h
+	"Personaje.h"
+	"Pantalla.h"
+
+1558090908 d:\uni\1º\2ºc\tp\proyecto tp david almagro\código\personaje.h
+	"Pantalla.h"
+
+1558288833 source:d:\uni\1º\2ºc\tp\proyecto tp david almagro\código\ejercito.c
+	"Ejercito.h"
+	"Disparo.h"
+	<stdlib.h>
+	"Enemigo.h"
+	"Colision.h"
+
+1558278077 d:\uni\1º\2ºc\tp\proyecto tp david almagro\código\ejercito.h
+	"Pantalla.h"
+	"Disparo.h"
+	"Enemigo.h"
+
+1558278077 d:\uni\1º\2ºc\tp\proyecto tp david almagro\código\enemigo.h
+	"Pantalla.h"
+
+1558288114 source:d:\uni\1º\2ºc\tp\proyecto tp david almagro\código\enemigo.c
+	"Enemigo.h"
+	"Pantalla.h"
+	<stdlib.h>
+
+1558288110 source:d:\uni\1º\2ºc\tp\proyecto tp david almagro\código\estrella.c
+	"Estrella.h"
+	<stdlib.h>
+
+1558090998 d:\uni\1º\2ºc\tp\proyecto tp david almagro\código\estrella.h
+	"Pantalla.h"
+
+1558288107 source:d:\uni\1º\2ºc\tp\proyecto tp david almagro\código\galaxia.c
+	"Estrella.h"
+	"Galaxia.h"
+	<stdlib.h>
+	"Colision.h"
+
+1558090998 d:\uni\1º\2ºc\tp\proyecto tp david almagro\código\galaxia.h
+	"Pantalla.h"
+
+1547906844 source:d:\uni\1º\2ºc\tp\proyecto tp david almagro\código\pantalla.c
+	"Pantalla.h"
+	<stdlib.h>
+	<signal.h>
+	<stdio.h>
+	<math.h>
+
+1558288098 source:d:\uni\1º\2ºc\tp\proyecto tp david almagro\código\personaje.c
+	"Personaje.h"
+	<stdlib.h>
+
+1558289032 source:d:\uni\1º\2ºc\tp\proyecto tp david almagro\código\principal.c
+	"Pantalla.h"
+	"Personaje.h"
+	"Enemigo.h"
+	"Colision.h"
+	"Estrella.h"
+	"Galaxia.h"
+	"Disparo.h"
+	"Boton.h"
+	"Ejercito.h"
+	<stdlib.h>
+	<time.h>
+	<stdio.h>
+	<string.h>
+
